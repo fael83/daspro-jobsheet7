@@ -8,7 +8,10 @@ public class DislayTwo13 {
         numInput = input.nextInt();
         for (int i = 2; i <= numInput; i += 2) {
             // if (i % 2 == 0) {
-                System.out.println("2 multiple: " + i);
+                System.out.print(i + " ");
+            if (i == 10) {
+                System.out.print("%");
+            }
             
         }
     }
