@@ -29,6 +29,8 @@ public class DoWhileLeaveEntitlement13 {
                         System.out.println("Please enter a valid number of days: ");
                     }
                 }
+            } else {
+                break;
             }
         } while(leaveEntitlement > 0);
     }
